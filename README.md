@@ -1,5 +1,5 @@
 # Tiny-Ideas
-Easy and simple projects that are made using Python
+Easy and simple projects that are made using Python when bored
 # Guidelines
 - Each file must be less than 500 lines of code
 - Every line cannot exceed 50 character
