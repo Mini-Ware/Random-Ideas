@@ -3,6 +3,7 @@ Easy and simple projects that are made using Python
 # Guidelines
 - Each file must be less than 500 lines of code
 - Every line cannot exceed 50 character
+- All files should be in the Python programming language
 - Exceeding the requirements to a certain extend will still be allowed
 # How to contribute
 - You may clone the respository if you need it
