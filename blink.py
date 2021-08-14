@@ -1,6 +1,8 @@
 import time
 import os
 delay = 1
+
+#Interval
 while True:
   os.system("termux-torch on")
   time.sleep(1)
