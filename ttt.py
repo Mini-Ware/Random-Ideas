@@ -49,18 +49,29 @@ def check(progress, board):
     result = "lose"
     progress = False
 
+  if progress == False:
+    print(" —— —— ——\n|"+board[0][0]+"|"+board[0][1]+"|"+board[0][2]+"|\n —— —— ——\n|"+board[1][0]+"|"+board[1][1]+"|"+board[1][2]+"|\n —— —— ——\n|"+board[2][0]+"|"+board[2][1]+"|"+board[2][2]+"|\n —— —— ——")
+    if result == "win":
+      print("You won!")
+      exit()
+    elif result == "lose":
+      print("You lost!")
+      exit()
+
+  return progress
+
+def valid(progress, board):
+
   #Check draw
-  if board[0][0] != "  " and board[0][1] != "  " and board[0][2] != "  " and board[1][0] != "  " and board[1][1] != "  " and board[1][2] != "  " and board[2][0] != "  " and board[2][1] != "  " and board[2][2] != "  ":
+  if progress == True and board[0][0] != "  " and board[0][1] != "  " and board[0][2] != "  " and board[1][0] != "  " and board[1][1] != "  " and board[1][2] != "  " and board[2][0] != "  " and board[2][1] != "  " and board[2][2] != "  ":
     result = "draw"
     progress = False
 
   if progress == False:
-    if result == "win":
-      print("You won!")
-    elif result == "lose":
-      print("You lost!")
-    elif result == "draw":
+    print(" —— —— ——\n|"+board[0][0]+"|"+board[0][1]+"|"+board[0][2]+"|\n —— —— ——\n|"+board[1][0]+"|"+board[1][1]+"|"+board[1][2]+"|\n —— —— ——\n|"+board[2][0]+"|"+board[2][1]+"|"+board[2][2]+"|\n —— —— ——")
+    if result == "draw":
       print("Its a draw!")
+      exit()
   return progress
 
 #Main loop
@@ -86,12 +97,31 @@ while progress:
   else:
     print("That square has already been occupied!")
     confirm = True
+
   check(progress, board)
+  valid(progress, board)
 
   #Response
   loopx = 0
   loopy = 0
   move = 0
+
+  #Solve horizontal
+  while loopy < 3:
+    if confirm == False and board[loopy][0] == "  " and board[loopy][1] == "O " and board[loopy][2] == "O ":
+      board[loopy][0] = "O "
+      confirm = True
+    elif confirm == False and board[loopy][1] == "  " and board[loopy][0] == "O " and board[loopy][2] == "O ":
+      board[loopy][1] = "O "
+      confirm = True
+    elif confirm == False and board[loopy][2] == "  " and board[loopy][0] == "O " and board[loopy][1] == "O ":
+      board[loopy][2] = "O "
+      confirm = True
+    loopy = loopy + 1
+
+  #Solve vertical
+
+  #Solve diagonal
 
   #Block horizontal
 
@@ -117,4 +147,5 @@ while progress:
       confirm = True
 
   check(progress, board)
+  valid(progress, board)
   print(" —— —— ——\n|"+board[0][0]+"|"+board[0][1]+"|"+board[0][2]+"|\n —— —— ——\n|"+board[1][0]+"|"+board[1][1]+"|"+board[1][2]+"|\n —— —— ——\n|"+board[2][0]+"|"+board[2][1]+"|"+board[2][2]+"|\n —— —— ——")
