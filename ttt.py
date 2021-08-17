@@ -120,12 +120,49 @@ while progress:
     loopy = loopy + 1
 
   #Solve vertical
+  while loopx < 3:
+    if confirm == False and board[0][loopx] == "  " and board[1][loopx] == "O " and board[2][loopx] == "O ":
+      board[0][loopx] = "O "
+      confirm = True
+    elif confirm == False and board[1][loopx] == "  " and board[0][loopx] == "O " and board[2][loopx] == "O ":
+      board[1][loopx] = "O "
+      confirm = True
+    elif confirm == False and board[2][loopx] == "  " and board[0][loopx] == "O " and board[1][loopx] == "O ":
+      board[2][loopx] = "O "
+      confirm = True
+    loopx = loopx + 1
 
   #Solve diagonal
 
+  #Reset loops
+  loopx = 0
+  loopy = 0
+
   #Block horizontal
+  while loopy < 3:
+    if confirm == False and board[loopy][0] == "  " and board[loopy][1] == "X " and board[loopy][2] == "X ":
+      board[loopy][0] = "O "
+      confirm = True
+    elif confirm == False and board[loopy][1] == "  " and board[loopy][0] == "X " and board[loopy][2] == "X ":
+      board[loopy][1] = "O "
+      confirm = True
+    elif confirm == False and board[loopy][2] == "  " and board[loopy][0] == "X " and board[loopy][1] == "X ":
+      board[loopy][2] = "O "
+      confirm = True
+    loopy = loopy + 1
 
   #Block vertical
+  while loopx < 3:
+    if confirm == False and board[0][loopx] == "  " and board[1][loopx] == "X " and board[2][loopx] == "X ":
+      board[0][loopx] = "O "
+      confirm = True
+    elif confirm == False and board[1][loopx] == "  " and board[0][loopx] == "X " and board[2][loopx] == "X ":
+      board[1][loopx] = "O "
+      confirm = True
+    elif confirm == False and board[2][loopx] == "  " and board[0][loopx] == "X " and board[1][loopx] == "X ":
+      board[2][loopx] = "O "
+      confirm = True
+    loopx = loopx + 1
 
   #Block diagonal
 
