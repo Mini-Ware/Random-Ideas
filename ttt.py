@@ -133,6 +133,24 @@ while progress:
     loopx = loopx + 1
 
   #Solve diagonal
+  if confirm == False and board[0][0] == "  " and board[1][1] == "O " and board[2][2] == "O ":
+    board[0][0] = "O "
+    confirm = True
+  elif confirm == False and board[1][1] == "  " and board[0][0] == "O " and board[2][2] == "O ":
+    board[1][1] = "O "
+    confirm = True
+  elif confirm == False and board[2][2] == "  " and board[0][0] == "O " and board[1][1] == "O ":
+    board[2][2] = "O "
+    confirm = True
+  elif confirm == False and board[0][2] == "  " and board[1][1] == "O " and board[2][0] == "O ":
+    board[0][2] = "O "
+    confirm = True
+  elif confirm == False and board[1][1] == "  " and board[0][2] == "O " and board[2][0] == "O ":
+    board[1][1] = "O "
+    confirm = True
+  elif confirm == False and board[2][0] == "  " and board[0][2] == "O " and board[1][1] == "O ":
+    board[2][0] = "O "
+    confirm = True
 
   #Reset loops
   loopx = 0
@@ -165,6 +183,24 @@ while progress:
     loopx = loopx + 1
 
   #Block diagonal
+  if confirm == False and board[0][0] == "  " and board[1][1] == "X " and board[2][2] == "X ":
+    board[0][0] = "O "
+    confirm = True
+  elif confirm == False and board[1][1] == "  " and board[0][0] == "X " and board[2][2] == "X ":
+    board[1][1] = "O "
+    confirm = True
+  elif confirm == False and board[2][2] == "  " and board[0][0] == "X " and board[1][1] == "X ":
+    board[2][2] = "O "
+    confirm = True
+  elif confirm == False and board[0][2] == "  " and board[1][1] == "X " and board[2][0] == "X ":
+    board[0][2] = "O "
+    confirm = True
+  elif confirm == False and board[1][1] == "  " and board[0][2] == "X " and board[2][0] == "X ":
+    board[1][1] = "O "
+    confirm = True
+  elif confirm == False and board[2][0] == "  " and board[0][2] == "X " and board[1][1] == "X ":
+    board[2][0] = "O "
+    confirm = True
 
   #Anyhow place
   while confirm == False:
