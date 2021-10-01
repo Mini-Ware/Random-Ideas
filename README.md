@@ -15,4 +15,5 @@ Easy and simple projects that are made using Python when bored</br></br>
 # Termux-API
 - [Blinking LED](https://github.com/Mini-Ware/Random-Ideas/blob/main/Termux-API/blink.py)
 - [Smart Lamp](https://github.com/Mini-Ware/Random-Ideas/blob/main/Termux-API/lamp.py)
+- [Voice Recognition](https://github.com/Mini-Ware/Random-Ideas/blob/main/Termux-API/assist.py)
 - [Mute Spotify Ads](https://github.com/Mini-Ware/Random-Ideas/blob/main/Termux-API/skip.py)
