@@ -6,7 +6,7 @@ Easy and simple projects that are made using Python/JS when bored</br></br>
 ![Issues](https://img.shields.io/github/issues/Mini-Ware/Random-Ideas)
 ![Commit](https://img.shields.io/github/last-commit/Mini-Ware/Random-Ideas)
 # Aesthetic
-- [Night Sky](https://github.com/Mini-Ware/Random-Ideas/blob/main/ASCII%20Art/night.py)
+- [Night Sky](https://github.com/Mini-Ware/Random-Ideas/blob/main/Aesthetic/night.py)
 # Games
 - [7 Up](https://github.com/Mini-Ware/Random-Ideas/blob/main/Games/7up.py)
 - [Higher or Lower](https://github.com/Mini-Ware/Random-Ideas/blob/main/Games/guess.py)
