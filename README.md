@@ -1,5 +1,5 @@
 # Random-Ideas
-Easy and simple projects that are made using Python/JS when bored</br></br>
+Easy and simple projects that are made when bored</br></br>
 ![License](https://img.shields.io/github/license/Mini-Ware/Random-Ideas)
 ![Stars](https://img.shields.io/github/stars/Mini-Ware/Random-Ideas)
 ![Forks](https://img.shields.io/github/forks/Mini-Ware/Random-Ideas)<br>
