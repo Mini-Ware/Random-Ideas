@@ -12,7 +12,7 @@ int main(){
 
   for (unsigned int i=1; i<21; i++){
     strcpy(load, "ping -c 1 ");
-    strcpy(msg, "192.168.18.");
+    strcpy(msg, "192.168.x.x");
     strcpy(address, "");
 
     sprintf(address, "%d", i);
