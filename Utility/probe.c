@@ -28,7 +28,7 @@ int main(){
     }
 
     if (status == 0){
-      printf("192.168.18.%d is connected\n", i);
+      printf("192.168.x.%d is connected\n", i);
       n = n+1;
     }
 
