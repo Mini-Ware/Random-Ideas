@@ -18,3 +18,5 @@ Easy and simple projects that are made when bored</br></br>
 - [Blinking LED](https://github.com/Mini-Ware/Random-Ideas/blob/main/Termux-API/blink.py)
 - [Smart Lamp](https://github.com/Mini-Ware/Random-Ideas/blob/main/Termux-API/lamp.py)
 - [Voice Recognition](https://github.com/Mini-Ware/Random-Ideas/blob/main/Termux-API/assist.py)
+# Utility
+- [Probe](https://github.com/Mini-Ware/Random-Ideas/blob/main/Utility/probe.c)
