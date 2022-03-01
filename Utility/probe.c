@@ -3,24 +3,27 @@
 #include <string.h>
 
 int main(){
-  char load[40];
-  char msg[10];
-  char address[20];
+  char load[30];
+  char prefix[13];
+  char address[4];
   unsigned int n;
 
   n = 0;
 
-  for (unsigned int i=1; i<21; i++){
+  for (unsigned int i=1; i<127; i++){
     strcpy(load, "ping -c 1 ");
-    strcpy(msg, "192.168.x.");
+
+    //Loop through IP addresses of private network
+    strcpy(prefix, "192.168.18.");
     strcpy(address, "");
 
     sprintf(address, "%d", i);
-    strcat(msg, address);
+    strcat(prefix, address);
 
-    strcat(load, msg);
+    strcat(load, prefix);
     strcat(load, " > /dev/null");
 
+    //Ping the IP address for response
     int status = system(load);
 
     if (i > 1){
