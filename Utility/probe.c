@@ -4,7 +4,7 @@
 
 int main(){
   char load[40];
-  char msg[20];
+  char msg[10];
   char address[20];
   unsigned int n;
 
