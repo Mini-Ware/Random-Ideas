@@ -20,3 +20,4 @@ Easy and simple projects that are made when bored</br></br>
 - [Voice Recognition](https://github.com/Mini-Ware/Random-Ideas/blob/main/Termux-API/assist.py)
 # Utility
 - [Probe](https://github.com/Mini-Ware/Random-Ideas/blob/main/Utility/probe.c)
+- [ToDo](https://github.com/Mini-Ware/Random-Ideas/blob/main/Utility/List.java)
