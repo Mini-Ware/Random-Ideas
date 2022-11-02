@@ -5,11 +5,11 @@ Easy and simple projects that are made when bored</br></br>
 ![Forks](https://img.shields.io/github/forks/Mini-Ware/Random-Ideas)<br>
 ![Issues](https://img.shields.io/github/issues/Mini-Ware/Random-Ideas)
 ![Commit](https://img.shields.io/github/last-commit/Mini-Ware/Random-Ideas)
-# Weird
-- [Square generator using OOP](https://github.com/Mini-Ware/Random-Ideas/blob/main/Aesthetic/box.py)
-- [Generate random stars everywhere](https://github.com/Mini-Ware/Random-Ideas/blob/main/Aesthetic/night.py)
-- [Code looks like among us](https://github.com/Mini-Ware/Random-Ideas/blob/main/Aesthetic/among_us.py)
-- [Code looks like a block](https://github.com/Mini-Ware/Random-Ideas/blob/main/Aesthetic/block.py)
+# Snippets
+- [Square generator using OOP](https://github.com/Mini-Ware/Random-Ideas/blob/main/Testing/box.py)
+- [Generate random stars everywhere](https://github.com/Mini-Ware/Random-Ideas/blob/main/Testing/night.py)
+- [Code looks like among us](https://github.com/Mini-Ware/Random-Ideas/blob/main/Testing/among_us.js)
+- [Code looks like a block](https://github.com/Mini-Ware/Random-Ideas/blob/main/Testing/block.js)
 # Games
 - [Higher or Lower](https://github.com/Mini-Ware/Random-Ideas/blob/main/Games/guess.py)
 - [Rock Paper Scissors](https://github.com/Mini-Ware/Random-Ideas/blob/main/Games/rps.py)
