@@ -14,3 +14,4 @@ class __(_):
 			print(super().__str__()) if (_.__(self,-1),1)[1] else ()
 		return _.__str__(self)
 (lambda __=__(input()):(0,str(__))[isinstance(__,_)])()
+
